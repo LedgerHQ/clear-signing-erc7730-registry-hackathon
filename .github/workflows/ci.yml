@@ -14,7 +14,7 @@ concurrency:
 jobs:
   ci:
     name: continuous integration
-    runs-on: ledgerhq-shared-medium
+    runs-on: ledgerhq-shared-small
     timeout-minutes: 60
     steps:
       - name: Login to Ledger Artifactory
